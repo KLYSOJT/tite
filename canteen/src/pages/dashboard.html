@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Dashboard - RMNHS Canteen System</title>
   <link rel="stylesheet" href="src/css/sidebar.css" />
-  <link rel="stylesheet" href="src/css/dashboard.css" />
+   <link rel="stylesheet" href="../../src/css/dashboard.css" />
 </head>
 <body>
   <!-- Sidebar (UNCHANGED) -->
@@ -25,12 +25,12 @@
 
     <!-- Main Content -->
     <main class="sidebar-main">
-      <button class="btn-new-entry" aria-label="Add New Daily Entry">
+      <a href="entry.html" class="btn-new-entry nav-item" data-label="New Entry" aria-label="Add New Daily Entry" role="button">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M12 5v14m7-7H5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </svg>
         New Entry
-      </button>
+      </a>
 
       <nav class="nav-menu" role="navigation" aria-label="Main navigation">
         <div class="nav-section">
@@ -90,7 +90,7 @@
   </aside>
 
   <!-- Main Dashboard Content -->
-  <div class="main-content">
+  <div class="top-content">
     <!-- Top Header -->
     <header class="top-header">
       <div class="left">
