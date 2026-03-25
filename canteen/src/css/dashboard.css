@@ -447,7 +447,7 @@ body.sidebar-collapsed .nav-item:hover::before {
 .sidebar-toggle svg { transition: transform 180ms ease; width: 18px; height: 18px; stroke: var(--white); stroke-width: 2; fill: none; }
 body.sidebar-collapsed .sidebar-toggle svg { transform: rotate(180deg); }
 /* Dashboard content - main */
-.main-content {
+.top-content {
   margin-left: 280px; /* respect sidebar width */
   min-height: 100vh;
   background: #f9fafb; /* slight off-white background */
