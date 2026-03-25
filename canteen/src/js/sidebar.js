@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const storageKey = 'sidebarCollapsed';
   const toggles = document.querySelectorAll('.sidebar-toggle');
 
-  // Initialize state from localStorage
-  if (localStorage.getItem(storageKey) === 'true') {
-    body.classList.add('sidebar-collapsed');
-  }
+  // Always start expanded, respect toggle only
+  // if (localStorage.getItem(storageKey) === 'true') {
+  //   body.classList.add('sidebar-collapsed');
+  // }
 
   toggles.forEach(btn => {
     btn.addEventListener('click', function(e) {
